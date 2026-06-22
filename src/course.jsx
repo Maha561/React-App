@@ -1,10 +1,16 @@
 
 const course1="HTML" 
+
 function Course(){
+
+    const  styles = {
+
+        backgroundColor :"green"
+    }
 
     return(
         
-        <div className = "card"  >
+        <div style ={styles} >
             <img src="" alt="" />
             <h3>{course1}</h3>
             <p>This is Maha's HTML course</p>
