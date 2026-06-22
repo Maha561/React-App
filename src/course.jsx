@@ -4,7 +4,7 @@ function Course(){
 
     return(
         
-        <div>
+        <div className = "card"  >
             <img src="" alt="" />
             <h3>{course1}</h3>
             <p>This is Maha's HTML course</p>
