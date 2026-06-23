@@ -1,16 +1,17 @@
 
+
 const course1="HTML" 
 
-function Course(){
+function Course(props){
 
     
 
     return(
         
         <div className="card">
-            <img src="" alt="" />
-            <h3>{course1}</h3>
-            <p>This is Maha's HTML course</p>
+            <img src={props.image} alt="" />
+            <h3>{props.name}</h3>
+            <p>{props.price}</p>
         </div>
     );
 }
