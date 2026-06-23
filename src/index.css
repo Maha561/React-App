@@ -1,5 +1,9 @@
 
-/*.card{
+.card{
 
-  background-color: aquamarine;
-}  */
+  background-color: beige;
+  max-width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
